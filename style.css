@@ -31,16 +31,25 @@
     box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+  background: #191919;
+  overflow: hidden;
+}
+
 .portfolio-banner {
     position: relative;
     width: 100%;
-    height: 220px;
+    height: 360px;
     overflow: hidden;
 
     display: flex;
     align-items: center;
 
     background: #202124;
+    box-sizing: border-box;
 }
 
 .portfolio-track {
